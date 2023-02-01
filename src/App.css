@@ -2,10 +2,10 @@
     color:red;
     font-family: 'Courier New', Courier, monospace;
 }
-body{
+#root{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    width: 100vw;
+    flex-direction: column;
     height: 100vh;
     
 }
@@ -14,7 +14,7 @@ form{
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
+    flex-direction: row;
     width: 30vw;
     height: 50vh;
     background-color: #272727;
