@@ -1,12 +1,11 @@
-import { useState } from 'react'
-import Login from './components/Login';
-import Dashboard from './components/Dashboard';
+
 import './App.css';
+import Form from './components/Form';
+import MouseTracker from './components/MouseTracker';
 
 
 function App() {
-  const [loggedUser, setLoggedUser] = useState()
-  return(loggedUser?<Dashboard userName={loggedUser} /> : <Login setUserName={setLoggedUser} />)
+  return <Form/>
 }
 
 export default App
